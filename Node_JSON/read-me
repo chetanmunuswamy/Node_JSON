@@ -1,0 +1,6 @@
+Complie the question3.js in command prompt using the following command
+node question3.js
+
+it will create the newData.json file in the local folder where the question3.js file is present.
+
+once the newData.json is created open the index.html file to see the desired output.
