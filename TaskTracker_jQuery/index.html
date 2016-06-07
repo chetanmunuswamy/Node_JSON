@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta name="author" content="Chetan Munuswamy">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script type="text/javascript" src="getjson.js"></script>
+<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+
+  <body>
+    <div class = "section1" style = "width: 780px; height: 140px; background-color: #f0f0f0">
+      <h1>Task Tacker</h1>
+      <p style = "margin-top: -20px; font-size: 20px; color: #616161">v2.0</p>
+    </div>
+    
+    <div class = "section2" style = "width: 815px; height: 400px; background-color: #f0f0f0">
+      <div class = "section2-1" style = "width: 318px; height: 400px; background-color: #ffffff; float: left">
+        <h3>Create a Task</h3>
+        <p>Task Name</p>
+        <input type = "text" id = "nameId" style = "border-radius: 3px; border: 1px #dedede solid; width: 320px; height: 35px; background-color: #ececec"/>
+        
+        <p>Date</p>
+        <input type = "date" id = "dateId" style = "border-radius: 3px; border: 1px #dedede solid; width: 320px; height: 35px; background-color: #ececec"/>
+        
+        <p>Assigned To</p>
+        <input type = "text" id = "assignedId" style = "border-radius: 3px; border: 1px #dedede solid; width: 320px; height: 35px; background-color: #ececec"/><br/>
+        
+        <button id ="submit" style="border-radius: 5px; border:1px #434343 solid; height:40px; width: 80px; background-color: #434343; color: #fff; margin-top: 30px; font-size: 14px;" >Submit</button>
+      </div>
+      
+      <div class = "section2-2" style = "width: 385px; height: 400px; background-color: #ffffff; float: right">
+        <h3>Existing Tasks</h3>
+        <table>
+          <thead></thead>
+          <tbody id = "show">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+
+<script type="text/javascript" src="script.js"></script>
+</html>
